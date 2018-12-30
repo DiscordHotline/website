@@ -1,0 +1,44 @@
+@import "variables";
+@import "~bulma";
+@import "overrides";
+@import "./mixins";
+
+a.title {
+    color: $light;
+
+    &:hover {
+        color: $primary;
+        border-bottom: 2px solid $primary;
+
+    }
+}
+
+body::-webkit-scrollbar-track {
+    display: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body::-webkit-scrollbar-thumb {
+    display: none;
+}
+
+.is-transparent {
+    background: transparent;
+    border: none;
+    cursor: default;
+
+    &:active, &:focus, &:hover {
+        border: none;
+        color: initial;
+        outline: none;
+    }
+}
+
+.button {
+    > svg {
+        margin-right: 5px;
+    }
+}

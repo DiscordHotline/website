@@ -1,0 +1,6 @@
+.serverless
+dev.vault.json
+start.sh
+.build
+node_modules
+.next

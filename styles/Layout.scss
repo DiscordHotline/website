@@ -1,0 +1,28 @@
+@import "variables";
+
+.content {
+    padding-top: 2rem;
+}
+
+.footer {
+    composes:   footer from "./global.scss";
+    flex:       1;
+    background: transparent;
+    color:      $white;
+
+    a {
+        color: $primary;
+    }
+}
+
+.notice {
+    color:       $white;
+    text-shadow: 1px 1px 3px rgba($primary, .3);
+
+    a {
+        color: $primary;
+        &:hover {
+            color: darken($primary, 20%);
+        }
+    }
+}

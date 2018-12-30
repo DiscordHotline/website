@@ -1,0 +1,16 @@
+@import "../../styles/variables";
+
+img.logo {
+    width: 48px;
+    height: auto;
+    max-height: initial;
+    border-radius: 32px;
+}
+
+h1.title {
+    padding-left: 1rem;
+}
+
+nav.navbar {
+    border-radius: 0;
+}
